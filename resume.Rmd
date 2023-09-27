@@ -54,11 +54,10 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> nyeinchankyaw.tech@gmail.com
+- <i class="fa fa-twitter"></i> twitter.com/nck85
+- <i class="fa fa-github"></i> github.com/nyeinchan85
+- <i class="fa fa-link"></i> [channyc.dev](https://channyc.dev/)
 
 
 
@@ -69,13 +68,13 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "R",                  3.5,
+  "Javascript", 3,
+  "Python",             3.5,
+  "Java",               4,
+  "SQL",                4,
+  "C++",                4.5,
+
 )
 build_skill_bars(skills)
 ```
@@ -85,28 +84,8 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
-
-
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `slid3r`: D3 add-on for fully svg slider inputs
-
-
-More info {#more-info}
---------------------------------------------------------------------------------
-
-See full CV at nickstrayer.me/cv for more complete list of positions and publications.
-
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
-
-Source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
-
-Last updated on `r Sys.Date()`.
+All projects available at 
+[github.com/nyeinchan85](https://github.com/NyeinChan85)
 
 
 
@@ -118,10 +97,8 @@ Nyein Chan Kyaw {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
-
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
-"
+intro_text <- "As the IT Manager at the United Nations' Department of Economic and Social Affairs, Economic Analysis and Policy Division, I lead and oversee IT projects and services aligned with the division's mission and objectives. With over 13 years of diverse IT experience, I've held roles as an IT manager, developer, business analyst, and consultant, serving various organizations and clients.
+My expertise encompasses various domains, including data analytics, web development, database design, and programming, as well as IT service management, technical writing, and user support. My true passion lies in leveraging technology and data to address complex challenges and drive positive outcomes"
 
 
 cat(sanitize_links(intro_text))
@@ -138,19 +115,15 @@ position_data %>% print_section('education')
 
 
 
-Selected Positions {data-icon=suitcase}
+Positions {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('positions')
 ```
 
-Selected Writing {data-icon=newspaper}
---------------------------------------------------------------------------------
 
 
-```{r}
-position_data %>% print_section('writings')
-```
+
 
 
