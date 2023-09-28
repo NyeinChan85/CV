@@ -54,9 +54,9 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> nyeinchankyaw.tech@gmail.com
-- <i class="fa fa-twitter"></i> twitter.com/nck85
-- <i class="fa fa-github"></i> github.com/nyeinchan85
+- <i class="fa fa-envelope"></i> [nyeinchankyaw.tech@gmail.com](mailto:nyeinchankyaw.tech@gmail.com)
+- <i class="fa fa-twitter"></i> [twitter.com/nck85](https://twitter.com/nck85)
+- <i class="fa fa-github"></i> [github.com/nyeinchan85](https://github.com/NyeinChan85)
 - <i class="fa fa-link"></i> [channyc.dev](https://channyc.dev/)
 
 
